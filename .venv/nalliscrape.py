@@ -84,7 +84,6 @@ soup = BeautifulSoup(html, features="html.parser")
 #printing = soup.find_all("div", class_ = "MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button")
 courts_list = soup.find_all("div", style ="display: flex;")
 browser.close()
-#test
 
 courts_list_txt = []
 for i in courts_list:
